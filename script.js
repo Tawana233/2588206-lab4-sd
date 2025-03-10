@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(){
             const flagli = document.createElement("li");
             const flagIm = document.createElement("img");
 
-            const capital = "Captial: " + dataAsJSON.name.common;
+            const capital = "Captial: " + dataAsJSON.capital[0];
             const population = "Population: " + dataAsJSON.population;
             const region = "Region: " + dataAsJSON.region;
             const flag = dataAsJSON.flags.svg;
